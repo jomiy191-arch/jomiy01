@@ -2,365 +2,394 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-  <!-- CSS -->
-  <link rel="stylesheet" href="./css/main.css">
-  <link rel="stylesheet" href="./css/normalize.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-  <!-- AOS CSS -->
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-  <title>Document</title>
+    <title>Document</title>
 </head>
 
 <body>
-  <!-- Header -->
-  <header class="header" data-aos="zoom-in" data-aos-duration="1500">
-    <div class="container">
-      <div class="header-container">
-        <img src="./images/logo.svg" alt="logo">
-        <nav>
-          <ul class="header-list">
-            <li class="header-item"><a class="header-link" href="#home">Home</a></li>
-            <li class="header-item"><a class="header-link" href="#about">About</a></li>
-            <li class="header-item"><a class="header-link" href="#services">Services</a></li>
-            <li class="header-item"><a class="header-link" href="#advice">Advice</a></li>
-            <li class="header-item"><a class="header-link" href="#contact">Contact</a></li>
-          </ul>
-        </nav>
-        <div class="burger">
-          <span></span>
-          <span></span>
-          <span></span>
+    <header class="header">
+        <div class="container">
+            <div class="header-container">
+                <img src="./images/logo.svg" alt="logo">
+
+                <nav>
+                    <ul class="header-list">
+                        <li class="header-item"><a class="header-link" href="#home">Home</a></li>
+                        <li class="header-item"><a class="header-link" href="#about">About</a></li>
+                        <li class="header-item"><a class="header-link" href="#services">Services</a></li>
+                        <li class="header-item"><a class="header-link" href="#advice">Advice</a></li>
+                        <li class="header-item"><a class="header-link" href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+
+                <div class="burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+            </div>
         </div>
-      </div>
-    </div>
-  </header>
+    </header>
+    <section class="hero">
+        <div class="container hero-container" id="home">
+            <div class="hero-left">
+                <h1 class="hero-title" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+                    EMPOWER <br> YOUR BUSINESS
+                </h1>
 
-  <!-- Hero -->
-  <section class="hero" id="home">
-    <div class="container hero-container">
-      <div class="hero-left" data-aos="zoom-in" data-aos-duration="1500">
-        <h1 class="hero-title">EMPOWER <br> YOUR BUSINESS</h1>
-        <p class="hero-text">We know how large objects will act, but things on a small scale.</p>
-        <div class="hero-btns">
-          <a href="#" class="btn btn-orange">Get Quote Now</a>
-          <a href="#" class="btn btn-outline">Learn More</a>
+                <p class="hero-text"data-aos="fade-up-right">
+                    We know how large objects will act, but things on a small scale.
+                </p>
+
+                <div class="hero-btns"data-aos="fade-up-right">
+                    <a href="#" class="btn btn-orange">Get Quote Now</a>
+                    <a href="#" class="btn btn-outline">Learn More</a>
+                </div>
+            </div>
+
         </div>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Services -->
-  <section class="services" id="services">
-    <div class="container">
-      <ul class="services-list">
-        <li class="service-item" data-aos="zoom-in" data-aos-duration="1500">
-          <div class="service-icon">
-            <img src="./images/carbon_tool-box.svg" alt="">
-          </div>
-          <h1 class="service-title">Digital Marketing</h1>
-          <p class="service-text">Meeting you where you work.</p>
-        </li>
-        <li class="service-item" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="200">
-          <div class="service-icon">
-            <img src="./images/carbon_tool-box.svg" alt="">
-          </div>
-          <h1 class="service-title">Web Development</h1>
-          <p class="service-text">Build fast and modern web solutions.</p>
-        </li>
-        <li class="service-item" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="400">
-          <div class="service-icon">
-            <img src="./images/carbon_tool-box.svg" alt="">
-          </div>
-          <h1 class="service-title">Brand Strategy</h1>
-          <p class="service-text">Grow your brand with creative ideas.</p>
-        </li>
-      </ul>
-    </div>
-  </section>
+    <section class="services"data-aos="zoom-in">
+        <div class="container">
+            <ul class="services-list">
 
-  <!-- About -->
-  <section class="about" id="about">
-    <div class="container">
-      <div class="about-box" data-aos="zoom-in" data-aos-duration="1500">
-        <h2 class="about-title">ABOUT US</h2>
-        <p class="about-text">Problems trying to resolve the conflict between the two major realms <br> of Classical physics: Newtonian mechanics and quantum mechanics.</p>
-        <ul class="about-list">
-          <li class="has-k" data-aos="zoom-in" data-aos-duration="1500">
-            <img src="./images/carbon_tool-box.svg" alt="">
-            <h1 data-target="3000"><span class="num">0</span></h1>
-            <p>CASES DONE</p>
-          </li>
-          <li data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="200">
-            <img src="./images/carbon_tool-box.svg" alt="">
-            <h1 data-target="45"><span class="num">0</span></h1>
-            <p>HAPPY CUSTOMERS</p>
-          </li>
-          <li data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="400">
-            <img src="./images/carbon_tool-box.svg" alt="">
-            <h1 data-target="12"><span class="num">0</span></h1>
-            <p>AWARD WINNING</p>
-          </li>
-          <li class="has-k" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="600">
-            <img src="./images/carbon_tool-box.svg" alt="">
-            <h1 data-target="1500"><span class="num">0</span></h1>
-            <p>CASES DONE</p>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </section>
+                <li class="service-item">
+                    <div class="service-icon">
+                        <img src="./images/carbon_tool-box.svg" alt="">
+                    </div>
+                    <h1 class="service-title">Digital Marketing</h1>
+                    <p class="service-text">Meeting you where you work.</p>
+                </li>
 
-  <!-- Advice -->
-  <section class="advice" id="advice">
-    <div class="container">
-      <div class="advice-box" data-aos="zoom-in" data-aos-duration="1500">
-        <h2 class="advice-title">ADVICE</h2>
-        <p class="advice-text">Problems trying to resolve the conflict between <br> the two major realms of Classical physics: Newtonian mechanics and quantum mechanics.</p>
-        <ul class="advice-list">
-          <li data-aos="zoom-in" data-aos-duration="1500">
-            <div class="advice-card">
-              <h1 class="advice-card-title">A single source of truth</h1>
-              <p class="advice-card-text">Newton thought that <br> light was made up of <br> particles, but then it</p>
-              <img class="advice-card-img" src="./images/cover (1).svg" alt="">
-            </div>
-          </li>
-          <li data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="200">
-            <div class="advice-card">
-              <h1 class="advice-card-title">Clear and concise guidance</h1>
-              <p class="advice-card-text">“Quantum mechanics” <br> is the description of the <br> behaviour of matter</p>
-              <img class="advice-card-img" src="./images/cover (2).svg" alt="">
-            </div>
-          </li>
-          <li data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="400">
-            <div class="advice-card">
-              <h1 class="advice-card-title">Fastest way to <br>organize</h1>
-              <p class="advice-card-text">They describe a <br> universe consisting of <br> bodies moving</p>
-              <img class="advice-card-img" src="./images/cover (3).svg" alt="">
-            </div>
-          </li>
-          <li data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="600">
-            <div class="advice-card">
-              <h1 class="advice-card-title">Work better </h1>
-              <p class="advice-card-text">They finally obtained <br>a consistent description <br>of the behaviour</p>
-              <img class="advice-card-img" src="./images/cover (4).svg" alt="">
-            </div>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </section>
-  <!-- You can append this to the old code, after Advice section -->
+                <li class="service-item">
+                    <div class="service-icon">
+                        <img src="./images/carbon_tool-box.svg" alt="">
+                    </div>
+                    <h1 class="service-title">Web Development</h1>
+                    <p class="service-text">Build fast and modern web solutions.</p>
+                </li>
 
-<!-- Main Services with iframe -->
-<main class="services">
-  <div class="wrapper" data-aos="zoom-in" data-aos-duration="1500">
-    <div class="content" id="services">
-      <h1 class="title" data-aos="zoom-in" data-aos-duration="1500">BUSINESS SERVICES</h1>
-      <p class="desc" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="200">
-        Problems trying to resolve the conflict between the two major realms <br>
-        of Classical physics: Newtonian mechanics.
-      </p>
-      <ul class="list">
-        <li class="image-box" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="400">
-          <iframe width="100%" height="315" src="https://www.youtube.com/embed/i7bLRKwKSms"
-                  title="YouTube video player" frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen></iframe>
-        </li>
-        <li class="details">
-          <div class="item" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="600">
-            <div class="item-header">
-              <h2 class="item-title">Most trusted in <br>our field</h2>
-            </div>
-            <p class="item-text">
-              Most calendars are designed for teams. Slate <br>
-              is designed for freelancers who want a simple way to plan their schedule.
-            </p>
-          </div>
-          <div class="item" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="800">
-            <div class="item-header">
-              <img src="images/icn settings .icn-md.svg" alt="Icon 1" class="icon">
-              <h2 class="item-title">The quick fox jumps over the lazy dog</h2>
-            </div>
-            <p class="item-text">Things on a very small scale ...</p>
-          </div>
-          <div class="item" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="1000">
-            <div class="item-header">
-              <img src="images/icn settings .icn-md (1).svg" alt="Icon 2" class="icon">
-              <h2 class="item-title">The quick fox jumps over the lazy dog</h2>
-            </div>
-            <p class="item-text">Things on a very small scale ...</p>
-          </div>
-        </li>
-      </ul>
-    </div>
-  </div>
-</main>
+                <li class="service-item">
+                    <div class="service-icon">
+                        <img src="./images/carbon_tool-box.svg" alt="">
+                    </div>
+                    <h1 class="service-title">Brand Strategy</h1>
+                    <p class="service-text">Grow your brand with creative ideas.</p>
+                </li>
 
-<!-- Marquee Section -->
-<section>
-  <div class="marquee-container" data-aos="zoom-in" data-aos-duration="1500">
-    <div class="marquee-track">
-      <img src="./images/col-md-3.svg" alt="">
-      <img src="./images/col-md-3 (1).svg" alt="">
-      <img src="./images/col-md-3 (2).svg" alt="">
-      <img src="./images/col-md-3 (3).svg" alt="">
-      <img src="./images/col-md-3 (4).svg" alt="">
-      <img src="./images/col-md-3 (5).svg" alt="">
-    </div>
-  </div>
-</section>
-
-<!-- Newsletter Section -->
-<section class="newsletter-section" data-aos="zoom-in" data-aos-duration="1500">
-  <div class="newsletter-container">
-    <h1 class="newsletter-title">Subscribe For Latest <br> Newsletter</h1>
-    <form class="newsletter-form" id="newsletterForm">
-      <div class="input-wrapper">
-        <input type="email" class="newsletter-input" placeholder="Enter your email" required>
-        <button type="submit" class="newsletter-btn">Subscribe</button>
-      </div>
-    </form>
-  </div>
-</section>
-
-<!-- Contact Section -->
-<section class="contact-section" data-aos="zoom-in" data-aos-duration="1500">
-  <div class="contact-container">
-    <div class="contact-header" id="contact" data-aos="zoom-in" data-aos-duration="1500">
-      <h1 class="contact-title">CONTACT US</h1>
-      <p class="contact-desc">
-        Problems trying to resolve the conflict between <br>
-        the two major realms of Classical physics: Newtonian mechanics
-      </p>
-    </div>
-    <ul class="contact-list">
-      <li class="contact-item" data-aos="zoom-in" data-aos-duration="1500">
-        <div class="contact-top">
-          <img src="./images/Vector (1).svg" alt="Support Icon" class="contact-icon">
-          <h2 class="contact-subtitle">Get Support</h2>
+            </ul>
         </div>
-        <p class="contact-email">
-          georgia.young@example.com <br> georgia.young@ple.com
-        </p>
-        <button class="contact-btn">Submit Request</button>
-      </li>
-      <li class="contact-item1" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="200">
-        <div class="contact-top">
-          <img src="./images/icn settings .icn-xl.svg" alt="Support Icon" class="contact-icon">
-          <h2 class="contact-subtitle">Get Support</h2>
+    </section>
+
+    <section class="about" data-aos="zoom-in">
+        <div class="container">
+            <div class="about-box" id="about">
+                <h2 class="about-title">ABOUT US</h2>
+                <p class="about-text">
+                    Problems trying to resolve the conflict between the two major realms <br>
+                    of Classical physics: Newtonian mechanics and quantum mechanics.
+                </p>
+
+                <ul class="about-list">
+                    <li class="has-k" data-speed="800"> <!-- tez -->
+                        <img src="./images/carbon_tool-box.svg" alt="">
+                        <h1 data-target="3000">
+                            <span class="num">0</span><span class="k-suffix"></span>
+                        </h1>
+                        <p>CASES DONE</p>
+                    </li>
+
+                    <li>
+                        <img src="./images/carbon_tool-box.svg" alt="">
+                        <h1 data-target="45"><span class="num">0</span><span class="k-suffix"></span></h1>
+                        <p>HAPPY CUSTOMERS</p>
+                    </li>
+
+                    <li>
+                        <img src="./images/carbon_tool-box.svg" alt="">
+                        <h1 data-target="12"><span class="num">0</span><span class="k-suffix"></span></h1>
+                        <p>AWARD WINNING</p>
+                    </li>
+
+                    <li class="has-k">
+                        <img src="./images/carbon_tool-box.svg" alt="">
+                        <h1 data-target="1500"><span class="num">0</span><span class="k-suffix"></span></h1>
+                        <p>CASES DONE</p>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <p class="contact-email">
-          georgia.young@example.com <br> georgia.young@ple.com
-        </p>
-        <button class="contact-btn">Submit Request</button>
-      </li>
-      <li class="contact-item" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="400">
-        <div class="contact-top">
-          <img src="./images/icn settings .icn-xl (1).svg" alt="Support Icon" class="contact-icon">
-          <h2 class="contact-subtitle">Get Support</h2>
+    </section>
+    <section class="advice"data-aos="zoom-in">
+        <div class="container">
+            <div class="advice-box" id="advice">
+                <h2 class="advice-title">ADVICE</h2>
+                <p class="advice-text">
+                    Problems trying to resolve the conflict between <br>
+                    the two major realms of Classical physics: Newtonian mechanics and quantum mechanics.
+                </p>
+
+                <ul class="advice-list">
+                    <li>
+                        <div class="advice-card">
+                            <h1 class="advice-card-title">A single source of truth</h1>
+                            <p class="advice-card-text">
+                                Newton thought that <br> light was made up of <br> particles, but then it
+                            </p>
+                            <img class="advice-card-img" src="./images/cover (1).svg" alt="Advice Image">
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="advice-card">
+                            <h1 class="advice-card-title">Clear and concise guidance</h1>
+                            <p class="advice-card-text">
+                                “Quantum mechanics” <br>
+                                is the description of the <br>
+                                behaviour of matter
+                            </p>
+                            <img class="advice-card-img" src="./images/cover (2).svg" alt="Advice Image">
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="advice-card"data-aos="zoom-in">
+                            <h1 class="advice-card-title">Fastest way to <br>organize</h1>
+                            <p class="advice-card-text">
+                                They describe a <br>
+                                universe consisting of <br>
+                                bodies moving
+                            </p>
+                            <img class="advice-card-img" src="./images/cover (3).svg" alt="Advice Image">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="advice-card">
+                            <h1 class="advice-card-title">Work better </h1>
+                            <p class="advice-card-text">
+                                They finally obtained <br>a consistent description <br>of the behaviour
+                            </p>
+                            <img class="advice-card-img" src="./images/cover (4).svg" alt="Advice Image">
+                        </div>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <p class="contact-email">
-          georgia.young@example.com <br> georgia.young@ple.com
-        </p>
-        <button class="contact-btn">Submit Request</button>
-      </li>
-    </ul>
-  </div>
-</section>
-
-<!-- Contact Form -->
-<section class="contact-form-section" data-aos="zoom-in" data-aos-duration="1500">
-  <div class="contact-form-container">
-    <h1 class="contact-form-title">Get In Touch</h1>
-    <form class="contact-form">
-      <input type="text" name="name" placeholder="Your Name" required>
-      <input type="email" name="email" placeholder="Your Email" required>
-      <input type="tel" name="phone" placeholder="Your Phone" required>
-      <textarea name="comment" placeholder="Your Comment" rows="5" required></textarea>
-      <select name="how-find-us" required>
-        <option value="" disabled selected>How did you find us?</option>
-        <option value="google">Google</option>
-        <option value="friend">Friend</option>
-        <option value="social">Social Media</option>
-        <option value="other">Other</option>
-      </select>
-      <button type="submit" class="contact-form-btn">Contact Us</button>
-    </form>
-  </div>
-</section>
-
-<!-- Footer -->
-<footer class="footer-section" data-aos="zoom-in" data-aos-duration="1500">
-  <div class="footer-container">
-    <ul class="footer-list">
-      <li class="footer-item">
-        <h1 class="footer-title"><a href="#">Company Info</a></h1>
-        <a href="#">About Us</a>
-        <a href="#">Careers</a>
-        <a href="#">We Are Hiring</a>
-        <a href="#">Blog</a>
-      </li>
-      <li class="footer-item">
-        <h1 class="footer-title"><a href="#">Legal</a></h1>
-        <a href="#">Privacy Policy</a>
-        <a href="#">Terms of Service</a>
-        <a href="#">Cookie Policy</a>
-        <a href="#">Blog</a>
-      </li>
-      <li class="footer-item">
-        <h1 class="footer-title"><a href="#">Features</a></h1>
-        <a href="#">Business Marketing</a>
-        <a href="#">User Analytics</a>
-        <a href="#">Live Chat</a>
-        <a href="#">Unlimited Support</a>
-      </li>
-      <li class="footer-item">
-        <h1 class="footer-title"><a href="#">Resources</a></h1>
-        <a href="#">iOS & Android</a>
-        <a href="#">Watch a Demo</a>
-        <a href="#">Customers</a>
-        <a href="#">API</a>
-      </li>
-      <li class="footer-item contact-info">
-        <h1 class="footer-title"><a href="#">Get In Touch</a></h1>
-        <p><i class="fa fa-phone"></i> (480) 555-0103</p>
-        <p><i class="fa fa-map-marker-alt"></i> 4517 Washington Ave. Manchester, Kentucky 39495</p>
-        <p><i class="fa fa-envelope"></i> debra.holt@example.com</p>
-      </li>
-    </ul>
-
-    <div class="footer-bottom">
-      <p>Made With Love By Figmaland. All Rights Reserved</p>
-      <div class="footer-social">
-        <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
-        <a href="https://www.instagram.com/_abdurahmon_07_28_?igsh=cXVhdDVtdTZkZzJo"><i class="fab fa-instagram"></i></a>
-        <a href="https://twitter.com/username"><i class="fab fa-twitter"></i></a>
-        <a href="https://www.youtube.com/watch?v=71aXSui6-ZI"><i class="fab fa-youtube"></i></a>
-      </div>
-    </div>
-  </div>
-</footer>
+    </section>
 
 
-  <!-- Remaining sections stay the same... -->
+    <main class="services" data-aos="zoom-in-up">
+        <div class="wrapper">
+            <div class="content" id="services">
+                <h1 class="title">BUSINESS SERVICES</h1>
+                <p class="desc">
+                    Problems trying to resolve the conflict between the two major realms <br>
+                    of Classical physics: Newtonian mechanics.
+                </p>
+                <ul class="list">
+                    <li class="image-box">
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/i7bLRKwKSms"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen>
+                        </iframe>
+                    </li>
+                    <li class="details">
+                        <div class="item">
+                            <div class="item-header">
+                                <h2 class="item-title">Most trusted in <br>our field</h2>
+                            </div>
+                            <p class="item-text">
+                                Most calendars are designed for teams. Slate <br>
+                                is designed for freelancers who want a simple way to plan their schedule.
+                            </p>
+                        </div>
+                        <div class="item">
+                            <div class="item-header">
+                                <img src="images/icn settings .icn-md.svg" alt="Icon 1" class="icon">
+                                <h2 class="item-title">The quick fox jumps over the lazy dog</h2>
+                            </div>
+                            <p class="item-text">Things on a very small scale ...</p>
+                        </div>
+                        <div class="item">
+                            <div class="item-header">
+                                <img src="images/icn settings .icn-md (1).svg" alt="Icon 2" class="icon">
+                                <h2 class="item-title">The quick fox jumps over the lazy dog</h2>
+                            </div>
+                            <p class="item-text">Things on a very small scale ...</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </main>
+    <section>
+        <div class="marquee-container">
+            <div class="marquee-track">
+                <img src="./images/col-md-3.svg" alt="">
+                <img src="./images/col-md-3 (1).svg" alt="">
+                <img src="./images/col-md-3 (2).svg" alt="">
+                <img src="./images/col-md-3 (3).svg" alt="">
+                <img src="./images/col-md-3 (4).svg" alt="">
+                <img src="./images/col-md-3 (5).svg" alt="">
+            </div>
+        </div>
+        </div>
+    </section>
 
-  <!-- AOS JS -->
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>
-    AOS.init({
-      duration: 1500, // animatsiya davomiyligi ms
-      easing: 'ease-in-out',
-      once: true
-    });
-  </script>
 
-  <script src="./js/main.js"></script>
+    <section class="newsletter-section" data-aos="zoom-in-up">
+        <div class="newsletter-container">
+            <h1 class="newsletter-title">Subscribe For Latest <br> Newsletter</h1>
+            <form class="newsletter-form" id="newsletterForm">
+                <div class="input-wrapper">
+                    <input type="email" class="newsletter-input" placeholder="Enter your email" required>
+                    <button type="submit" class="newsletter-btn">Subscribe</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <section class="contact-section" data-aos="zoom-in-up">
+        <div class="contact-container">
+            <div class="contact-header" id="contact">
+                <h1 class="contact-title">CONTACT US</h1>
+                <p class="contact-desc">
+                    Problems trying to resolve the conflict between <br>
+                    the two major realms of Classical physics: Newtonian mechanics
+                </p>
+            </div>
+            <ul class="contact-list">
+                <li class="contact-item">
+                    <div class="contact-top">
+                        <img src="./images/Vector (1).svg" alt="Support Icon" class="contact-icon">
+                        <h2 class="contact-subtitle">Get Support</h2>
+                    </div>
+                    <p class="contact-email">
+                        georgia.young@example.com <br> georgia.young@ple.com
+                    </p>
+                    <button class="contact-btn">Submit Request</button>
+                </li>
+                <li class="contact-item1">
+                    <div class="contact-top">
+                        <img src="./images/icn settings .icn-xl.svg" alt="Support Icon" class="contact-icon">
+                        <h2 class="contact-subtitle">Get Support</h2>
+                    </div>
+                    <p class="contact-email">
+                        georgia.young@example.com <br> georgia.young@ple.com
+                    </p>
+                    <button class="contact-btn">Submit Request</button>
+                </li>
+                <li class="contact-item">
+                    <div class="contact-top">
+                        <img src="./images/icn settings .icn-xl (1).svg" alt="Support Icon" class="contact-icon">
+                        <h2 class="contact-subtitle">Get Support</h2>
+                    </div>
+                    <p class="contact-email">
+                        georgia.young@example.com <br> georgia.young@ple.com
+                    </p>
+                    <button class="contact-btn">Submit Request</button>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="contact-form-section" data-aos="zoom-in-up">
+        <div class="contact-form-container">
+            <h1 class="contact-form-title">Get In Touch</h1>
+            <form class="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <input type="tel" name="phone" placeholder="Your Phone" required>
+                <textarea name="comment" placeholder="Your Comment" rows="5" required></textarea>
+                <select name="how-find-us" required>
+                    <option value="" disabled selected>How did you find us?</option>
+                    <option value="google">Google</option>
+                    <option value="friend">Friend</option>
+                    <option value="social">Social Media</option>
+                    <option value="other">Other</option>
+                </select>
+                <button type="submit" class="contact-form-btn">Contact Us</button>
+            </form>
+        </div>
+    </section>
+
+
+    <footer class="footer-section" data-aos="zoom-in-up">
+        <div class="footer-container">
+            <ul class="footer-list">
+                <li class="footer-item">
+                    <h1 class="footer-title"><a href="#">Company Info</a></h1>
+                    <a href="#">About Us</a>
+                    <a href="#">Careers</a>
+                    <a href="#">We Are Hiring</a>
+                    <a href="#">Blog</a>
+                </li>
+                <li class="footer-item">
+                    <h1 class="footer-title"><a href="#">Legal</a></h1>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Cookie Policy</a>
+                    <a href="#">Blog</a>
+                </li>
+                <li class="footer-item">
+                    <h1 class="footer-title"><a href="#">Features</a></h1>
+                    <a href="#">Business Marketing</a>
+                    <a href="#">User Analytics</a>
+                    <a href="#">Live Chat</a>
+                    <a href="#">Unlimited Support</a>
+                </li>
+                <li class="footer-item">
+                    <h1 class="footer-title"><a href="#">Resources</a></h1>
+                    <a href="#">iOS & Android</a>
+                    <a href="#">Watch a Demo</a>
+                    <a href="#">Customers</a>
+                    <a href="#">API</a>
+                </li>
+                <li class="footer-item contact-info">
+                    <h1 class="footer-title"><a href="#">Get In Touch</a></h1>
+                    <p><i class="fa fa-phone"></i> (480) 555-0103</p>
+                    <p><i class="fa fa-map-marker-alt"></i> 4517 Washington Ave. Manchester, Kentucky 39495</p>
+                    <p><i class="fa fa-envelope"></i> debra.holt@example.com</p>
+                </li>
+            </ul>
+
+            <div class="footer-bottom">
+                <p>Made With Love By Figmaland. All Rights Reserved</p>
+                <div class="footer-social">
+                    <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/_abdurahmon_07_28_?igsh=cXVhdDVtdTZkZzJo"><i
+                            class="fab fa-instagram"></i></a>
+                    <a href="https://twitter.com/username"><i class="fab fa-twitter"></i></a>
+                    <a
+                        href="https://www.youtube.com/watch?v=71aXSui6-ZI&feature=mweb_3_dot_11268432&itc_campaign=mweb_3_dot_11268432&redirect_app_store_ios=1&app=desktop"><i
+                            class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="./js/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init({
+            duration: 1500, 
+            easing: 'ease-in-out', 
+            once: true,
+        });
+    </script>
+
+
 </body>
 
 </html>
