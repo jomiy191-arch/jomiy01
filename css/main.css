@@ -70,7 +70,7 @@
 }
 
 .header-link:hover {
-  color: #b57171;
+  color: #ffffff;
 }
 .header-link:hover::after {
   width: 100%;
